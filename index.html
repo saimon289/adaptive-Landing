@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>06.09.18</title>
+	<link rel="stylesheet" href="style.css">
+	 <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+     
+      <link rel="stylesheet" href="css/style1.css">
+      <link rel="stylesheet" href="libs/animate/animate.css">
+
+   
+      <script src="js/jssor.slider-22.2.6.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+    
+</head>
+<body>
+
+	<div id="wrapper">
+	
+			<div id="topBlock">    
+				<img src="http://viennaos.net/uploads/posts/2010-07/1279285333_6.jpg" alt="1">
+				<img src="https://ak5.picdn.net/shutterstock/videos/3977965/thumb/1.jpg" alt="2">
+				<img src="https://ak2.picdn.net/shutterstock/videos/5875382/thumb/9.jpg" alt="3">
+        <div id="buttons2"> 
+				<input type="radio" name="rd" class="button"   onchange="funck()" checked > 
+				<input type="radio" name="rd" class="button"  onchange="funck()">
+				<input type="radio" name="rd" class="button"  onchange="funck()">  
+        </div> 	
+				<div id="topMenu">
+					<ul> 
+						<li class="liclass" ><img src="Waxom.png" alt=""  ></li>
+					 	<li class="liclass" onclick="slowScroll('#topBlock')" >Home</li>
+						<li class="liclass" onclick="slowScroll('#sl')">About Us</li>
+						<li class="liclass" onclick="slowScroll('#sle')">Portfolio</li>
+	 				 	<li class="liclass" onclick="slowScroll('#buttons')">Features</li>
+						<li class="liclass" onclick="slowScroll('#blog')">Blog</li>
+						<li class="liclass" onclick="slowScroll('#video')">Pricing</li>
+						<li class="liclass" onclick="slowScroll('#aphon')">Shortcodes</li>
+				 		<li class="liclass" onclick="slowScroll('#Contact')"> Contact</li>  
+						 
+						
+						<li id="knopka1" class="liclass"><i class="fas fa-bars"></i></li> 
+  
+					</ul>
+ 
+				</div>
+				<div id="zagolovok">
+					<h3>Unique and Modern Design</h3>
+					<h1>Portfolio PSD Template</h1>
+					<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id</p>
+					<p>quod mazim placerat facer possim assum.</p>
+					<input type="button" value="GET STARTED" >  
+
+				</div>
+			</div> 
+			<div class="clear"></div>
+
+			<div id="sl">
+				<div class="block" id="desine">
+					<i class="fas fa-laptop"></i>
+                     
+					<h3>Web & App Design</h3>
+	 				<p>Lorem ipsum dolor sit amet, consectetur.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<p>Lorem ipsum dolor sit.</p><br>
+					<p>__________</p>
+				</div>
+				<div class="block" id="Development"> 
+					<i class="fas fa-layer-group"></i>
+                    
+					<h3>Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<p>Lorem ipsum dolor sit.</p><br>
+					<p>__________</p>
+				</div>
+				<div class="block" id="Customization">
+					<i class="fas fa-cog"></i>
+					<h3>Customization</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<p>Lorem ipsum dolor sit.</p><br>
+					<p>__________</p>
+				</div>
+				<div class="block" id="Marketing">
+					<i class="fas fa-folder-open"></i>
+                     
+					<h3>Marketing</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+					<p>Lorem ipsum dolor sit.</p><br>
+					<p>__________</p>
+				</div></div> 
+             <div class="slider-container" id="Realization">
+                  <h3>Waxom is Realization of your Ideas.</h3>
+				<p>vestigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, </p>
+				<p>qui sequitur mutationem consuetudium.</p>
+  <div class="slider-content"  id="sle">
+
+    <div class="slider-single">
+      <img class="slider-single-image" src="slide1.png" alt="1" />
+      
+      
+     
+       
+      
+    </div>
+
+    <div class="slider-single">
+      <img class="slider-single-image" src="slide2.png" alt="2" />
+     
+    </div>
+
+    <div class="slider-single">
+      <img class="slider-single-image" src="slide3.png" alt="3" />
+      
+    </div>
+
+
+    
+
+  </div>
+
+  <a class="slider-left" href="javascript:void(0);"><i class="fa fa-arrow-left"></i></a>
+
+  <a class="slider-right" href="javascript:void(0);"><i class="fa fa-arrow-right"></i></a>
+
+</div>
+</div>
+</div>
+     <div id="cont">
+<div id="contwidth">
+	<div id="text" class="flex"><h3><span class="textcolor">Waxom</span> Multipurpose WordPress Theme</h3>
+		<p>Don't Forget to Rate the Template. Thanks so much!</p>
+    </div> 
+	<div id="but" class="flex"><input type="button" value="Purchase Now"></div>
+</div>
+</div>
+
+   <div id="contphotos">
+   	<h3 id="Projects">Our Latest Projects.</h3>
+   	<p  id="Investigationes">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, </p>
+   	<p id="mutationem">qui sequitur mutationem consuetudium.</p>
+   	<div id="buttons">
+   		<input type="button" value="All">
+   		<input type="button" value="Web Design">
+   		<input type="button" value="Mobile App">
+   		<input type="button" value="Illustration">
+   		<input type="button" value="Photography"> 
+   	</div>
+   	<div id="photosblock">
+   		<div  class="photo" >
+   			<img src="photo1.png" alt="" >
+   			<img src="#" alt="" class="imgmini" style="width: 30px; height: 30px;"> 
+   			<div class="h5" onclick="al()" ><h5>Claritas Etiam Processus</h5>
+   			<p>Photography, Nature</p></div>
+   		</div> 
+   		<div  class="photo">
+   			<img src="photo2.png" alt="">
+   			<div class="h5"><h5>Quam Nutamus Farum</h5>
+   			<p>Graphic Design, Mock-Up</p></div></div>
+   		<div  class="photo">
+   			<img src="photo3.png" alt=""><div class="h5"><h5>Usus Legentis Videntur</h5>
+   			<p>Photography, Holiday</p></div></div> 
+   		<div  class="photo">
+   			<img src="photo4.png" alt="">
+   			<div class="h5"><h5>Claritas Etiam Processus</h5>
+   			<p>Photography, Nature</p></div></div>
+   		<div  class="photo">
+   			<img src="photo5.png" alt=""><div class="h5"><h5>Quam Nutamus Farum</h5>
+   			<p>Graphic Design, Mock-Up</p></div></div>
+   		<div  class="photo">
+   			<img src="photo6.png" alt="">
+   			<div class="h5"><h5>Usus Legentis Videntur</h5>
+   			<p>Photography, Holiday</p></div></div>  
+
+   	</div>
+   	  <div id="photobutton"><input type="button" value="Load More"></div>
+   </div>
+ <div id="videoMama">
+  <div class="video" id="video" >
+   
+<video  AutoPlay loop > 
+  <source src="Travaho.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+  <source src="Travaho.webm" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+  <source src="Travaho.ogv" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+  <object data="Travaho.swf" type="application/x-shockwave-flash"><!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+    <param name="movie" value="Travaho.swf">
+  </object>
+</video>
+   </div>
+ </div>  
+      <div class="aphonHand" >
+      	<div class="imgaphon"><img src="iPhone-in-hand.png" alt="" id="aphonimg"></div>
+      	  <div class="textaiphon" id="aphon">
+           <h3>Excellent for Mobile Devices.</h3>
+           <p>Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea </p>
+           <p>commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius </p>
+           <p>claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+           
+           <ul>
+           	<li>Nam liber tempor cum soluta nobis eleifend option;</li>
+           	<li>Option congue nihil imperdiet doming id quod mazim placerat facer;</li>
+           	<li>Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+           	<li>Investigationes demonstraverunt lectores parum futurum;</li>
+           </ul>
+       </div> 
+
+      	      </div>
+
+      	      <div class="statistic">
+      	      	<div class="icons">
+      	      		<img src="icon1.png" alt="">
+      	      		<h1 class="spincrement"  id="btn">3587</h1>
+      	      		<p>Satisfied Clients</p>
+      	      		<p>___</p>
+      	      	</div>
+      	      	<div class="icons">
+      	      		<img src="icon2.png" alt="">
+      	      		<h1 class="spincrement">207</h1>
+      	      		<p>Cups of coffee</p>
+      	      		<p>___</p>
+      	      	</div>
+      	      	<div class="icons">
+      	      		<img src="icon3.png" alt="">
+      	      		<h1 class="spincrement">2500</h1>
+      	      		<p>Blog posts</p>
+      	      		<p>___</p>
+      	      	</div>
+      	      	<div class="icons">
+      	      		<img src="icon4.png" alt="">
+      	      		<h1 class="spincrement">873</h1>
+      	      		<p>Likes</p>
+      	      		<p>___</p>
+      	      	</div>
+      	      	<div class="icons  m576">  
+      	      		<img src="icon5.png" alt="">
+      	      		<h1 class="spincrement">900</h1> 
+      	      		<p>We launched</p> 
+      	      		<p>___</p>
+      	      	</div>
+      	      </div>
+
+      	     <div class="posts" id="blog">
+      	     	<div class="textpost" id="postanim">
+      	     		<h1>Recent Posts.</h1> 
+      	     		<p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus,</p>
+      	     		<p>qui sequitur mutationem consuetudium.</p>
+      	     	</div>
+                    <div class="post" id="postanim2">
+                      <div class="input">
+                      	<input type="radio" name="minis" onchange="funckmini()" checked class="bm">
+                      	<input type="radio" name="minis" onchange="funckmini()" class="bm">
+                      	<input type="radio" name="minis" onchange="funckmini()" class="bm">
+                      
+                      </div>
+                    	<img src="post1.png" alt="">
+                    	<img src="post2.png" alt=" ">
+                    	<img src="post3.png" alt="">
+                     	
+
+                	<h5 style="color: #c7b299">Lorem ipsum dolor sit amet.</h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                	<a href="#" style="color: #c7b299">Read More</a> 
+ 
+                </div>
+                	<div class="imgpost2" id="postanim3"><img src="post2.png" alt="">
+                	<h5 style="color: #c7b299">Lorem ipsum dolor sit amet.</h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                	<a href="#" style="color: #c7b299">Read More</a>
+                </div>
+                	<div class="imgpost3" id="postanim4"><img src="post3.png" alt=""> 
+                    <h5 style="color: #c7b299">Lorem ipsum dolor sit amet.</h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p> 
+                    <a href="#" style="color: #c7b299">Read More</a>                
+                </div> 
+
+
+      	     </div>
+
+      	     	<div class="logo">
+      	     		<img src="logo-042.png" alt="">
+      	     	</div>
+               <div class="footerWrapper">
+              <div class="footer">
+               	<div class="main_footer imgwax" ><img src="Waxom.png" alt="">
+                <p>orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                <a href="#" style="color:#fff; text-decoration: none;">Read More</a>
+               	</div>
+               	<div class="main_footer"><h3>Lorem ipsum.</h3>
+               <p>September 08, 2015</p>
+                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p><hr>  
+
+                  
+                 <span class="color">
+                 	 <p>September 08, 2015</p>
+                 	<p>Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                 	<p></p>
+                 </span>
+                 <hr>
+                  <p>September 08, 2015</p>
+                 <p>Claritas est etiam processus dynamicus, qui sequitur mutationem per seacula quarta decima</p>
+                 
+               	</div>
+               	<div class="main_footer">
+               		<h3>Our Twitter</h3>
+                 <p><sapn 	class="wax">@waxom</sapn> Cum soluta nobis eleifend option congue nihil imperdiet doming</p>
+                 <p>3 mins ago</p>
+                 <hr>
+
+                 <span>
+                 	<p>Mirum est <span class="wax">#envato</span> notare quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                 	 <p>3 mins ago</p>
+                 	 <hr>
+                 	
+                 </span>
+                 <p>Soluta nobis option <span class="bit">bit.ly/1Hniso7</span></p>
+                 	 <p>3 mins ago</p>
+                 
+               	</div> 
+               	<div class="main_footer footerimg"><h3>Dribbble Widget</h3>
+                 <img src="footerimg1.png" alt="">
+                 <img src="footerimg2.png" alt="">
+                 <img src="footerimg3.png" alt="">
+                 <img src="footerimg4.png" alt="">
+               	</div>
+               </div>
+             </div>
+             <footer>
+             	<ul class="ul1" id="Contact">
+             		<li>Copyright © 2015 <span style="color: #fff">Waxom</span>   | </li>
+             		<li>Privacy Policy   | </li>
+             		<li><span style="color: #c7b299;">FAQ</span>   | </li>
+             		<li>Support</li>
+             	</ul>
+             	<ul class="ul2">
+             		<li>Designed by <span style="color: #959595;">ThemeFire</span>   | </li>
+             		<li>Only on <span style="color: #959595;">Envato Market</span></li> 
+             	</ul>
+             </footer>
+    
+ 
+	
+
+	<!--скрипты ОСТОРОЖНО НЕ ТРОГАТЬ-->
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/waypoints/waypoints.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/plugins-scroll/plugins-scroll.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script> 
+	
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+	<script src="script.js"></script>
+  <script>
+             
+    /*  $('.spincrement').each(function chisla (){
+        $(this).prop('icons',0).animate({
+          icons:$(this).text()   
+        },{
+          duration: 4000,
+          easing:'swing',
+          step:function(now){
+            $(this).text(Math.ceil(now));
+          }
+        })
+     }) */
+    
+  	//скролл скрипт до
+  	function slowScroll(id) {
+  	   var offset = 10;
+  	   $('html,body').animate ({
+  	   	scrollTop:$(id).offset ().top - offset
+  	   },1700);
+  	   return false ;  
+  	}
+
+    
+      // скрипт анимации 
+  	var waypoint = new Waypoint({
+  element: document.getElementById('desine'),
+  handler: function(direction) { 
+    desine.className+=' fadeInLeft'; 
+     setTimeout(function() {desine.classList.remove('fadeInLeft') }, 4000)  
+  },
+  offset:950 
+ 
+  
+})
+    
+
+    	var waypoint = new Waypoint({
+  element: document.getElementById('Development'),
+  handler: function(direction) { 
+    Development.className +=' fadeInUp'; 
+    setTimeout(function() {Development.classList.remove('fadeInUp') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+
+    	    	var waypoint = new Waypoint({
+  element: document.getElementById('Customization'),
+  handler: function(direction) { 
+    Customization.className +=' fadeInUp'; 
+    setTimeout(function() {Customization.classList.remove('fadeInUp') }, 4000)   
+  },
+  offset:950 
+
+  
+})
+
+   	var waypoint = new Waypoint({
+  element: document.getElementById('Marketing'),
+  handler: function(direction) { 
+    Marketing.className +=' fadeInRight'; 
+    setTimeout(function() {Marketing.classList.remove('fadeInRight') }, 4000)    
+  },
+  offset:950 
+
+  
+}) 	    	
+
+
+   		var waypoint = new Waypoint({
+  element: document.getElementById('Realization'),
+  handler: function(direction) { 
+    Realization.className +=' fadeInUp';
+    setTimeout(function() {Realization.classList.remove('fadeInUp') }, 4000)    
+  },
+  offset:950
+
+  
+})
+   			var waypoint = new Waypoint({
+  element: document.getElementById('Projects'),
+  handler: function(direction) { 
+    Projects.className +=' fadeInDown'; 
+    setTimeout(function() {Projects.classList.remove('fadeInDown') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+   		var waypoint = new Waypoint({
+  element: document.getElementById('Investigationes'),
+  handler: function(direction) { 
+    Investigationes.className +=' fadeInUp'; 
+    setTimeout(function() {Investigationes.classList.remove('fadeInUp') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+
+   		var waypoint = new Waypoint({
+  element: document.getElementById('mutationem'),
+  handler: function(direction) { 
+    mutationem.className +=' fadeInUp'; 
+    setTimeout(function() {mutationem.classList.remove('fadeInUp') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+
+   		var waypoint = new Waypoint({
+  element: document.getElementById('buttons'),
+  handler: function(direction) { 
+    buttons.className +=' fadeInUp';
+    setTimeout(function() {buttons.classList.remove('fadeInUp') }, 4000)     
+  },
+  offset:950 
+
+  
+})
+   		var waypoint = new Waypoint({
+  element: document.getElementById('photosblock'),
+  handler: function(direction) { 
+    photosblock.className +=' fadeIn';  
+    setTimeout(function() {photosblock.classList.remove('fadeIn') }, 4000)   
+  },
+  offset:950 
+
+  
+})
+
+   		var waypoint = new Waypoint({
+  element: document.getElementById('photobutton'),
+  handler: function(direction) { 
+    photobutton.className +=' fadeInUp'; 
+     setTimeout(function() {photobutton.classList.remove('fadeInUp') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+  	var waypoint = new Waypoint({
+  element: document.getElementById('video'),
+  handler: function(direction) { 
+    video.className +=' fadeInUp';
+     setTimeout(function() {video.classList.remove('fadeInUp') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+
+  		var waypoint = new Waypoint({
+  element: document.getElementById('aphonimg'),
+  handler: function(direction) { 
+    aphonimg.className +=' fadeInUp'; 
+     setTimeout(function() {
+      aphonimg.classList.remove('fadeInUp');
+
+
+       }, 4000) 
+      $('.spincrement').each(function chisla (){
+        $(this).prop('icons',0).animate({
+          icons:$(this).text()   
+        },{
+          duration: 4000,
+          easing:'swing',
+          step:function(now){
+            $(this).text(Math.ceil(now));
+          }
+        })
+      })
+
+  },
+  offset:950 
+
+  
+})
+
+  		
+  		var waypoint = new Waypoint({
+  element: document.getElementById('aphon'),
+  handler: function(direction) { 
+    aphon.className +=' fadeInRight';
+     setTimeout(function() {aphon.classList.remove('fadeInRight') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+
+  		var waypoint = new Waypoint({
+  element: document.getElementById('postanim'),
+  handler: function(direction) { 
+    postanim.className +=' fadeInUp';
+    setTimeout(function() {postanim.classList.remove('fadeInUp') }, 4000)      
+  },
+  offset:950 
+
+  
+})
+  			var waypoint = new Waypoint({
+  element: document.getElementById('postanim2'),
+  handler: function(direction) { 
+    postanim2.className +=' fadeInLeft';  
+    setTimeout(function() {postanim2.classList.remove('fadeInLeft') }, 4000)    
+  },
+  offset:950 
+
+  
+})
+  			var waypoint = new Waypoint({
+  element: document.getElementById('postanim3'),
+  handler: function(direction) { 
+    postanim3.className +=' fadeInUp'; 
+     setTimeout(function() {postanim3.classList.remove('fadeInUp') }, 4000)     
+  },
+  offset:950 
+
+  
+})
+var waypoint = new Waypoint({
+  element: document.getElementById('postanim4'),
+  handler: function(direction) { 
+    postanim4.className +=' fadeInRight';
+     setTimeout(function() {postanim4.classList.remove('fadeInRight') }, 4000)          
+  },
+  offset:950 
+
+  
+})  	
+  	
+  </script>
+	
+</body>
+</html>
