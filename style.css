@@ -1814,38 +1814,55 @@ footer{
 
 
 
-@media screen and (max-width:325px){
+@media screen and (max-width:320px){
+body {
+  overflow-x: hidden;
+}
+
+#wrapper{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 #topMenu li  {
   font-size: 25px;
+  overflow-x: hidden;
 }
 
 #topMenu li i {
   font-size: 30px;
+  overflow-x: hidden;
 }
 
 
 #sl {
   display: block;
+  overflow-x: hidden;
 }
 .block {
   width: 100%;
+  overflow-x: hidden;
+  margin-left:0;
 
 }
 
 
 .slider-container{
- 
+ overflow-x: hidden;
   height: 100%;
+  width: 320px;
 
 }
 
 .slider-container>h3 {
   font-size: 1em;
   text-align: center;
+  overflow-x: hidden;
 }
-.slider-container>p{
+.slider-container p{
   font-size: 1em;
   text-align: center;
+  width: 300px !important;
 }
 
 .slider-container .slider-content {
@@ -1855,15 +1872,22 @@ footer{
     width: 70%;
     height: 60%;
     transform: translate(-50%, -50%);
+   
+}
+
+#videoMama {
+  height: 215px;
+  overflow-x: hidden;
 }
 
 .video {
-    margin-top: 1090px;
+    margin-top: 0px;
     position: relative;
     width: 389px;
      height: 278px; 
     overflow: hidden;
    border: none;
+   overflow-x: hidden;
 }
 .video video {
     position: absolute;
@@ -1872,6 +1896,7 @@ footer{
     width: 100%;
     height: 100%; 
     border: none;
+    overflow-x: hidden;
     
 }
 
@@ -1879,22 +1904,26 @@ footer{
 .aphonHand {
     width: 100%;
     height: 610px;
-    overflow: hidden;
+    
     justify-content: center;
     display: block;
    padding-top: 0;
    padding-left: 0;
-    margin: 100px auto;
+    margin: 0px auto;
+    overflow-x: hidden;
 }
 .textaiphon{
   text-align: center;
   width: 100%;
   margin-left: 0;
+  overflow-x: hidden;
   
 }
 
 .textaiphon  h3  p{
   display: inline;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .textaiphon ul {
@@ -1902,28 +1931,43 @@ footer{
   width: 100%;
   padding: 0;
   margin: 50px auto ;
+  overflow-x: hidden;
 
 }
 
 .textaiphon ul li {
   background: none;
   padding: 0;
+  overflow-x: hidden;
+}
+.imgaphon{
+  padding-top: 0px;
 }
 
 .imgaphon img  {
-   margin-top: 500px;
+   margin-top: 415px;
    width: 150px;
    position: absolute;
    z-index: -1; 
+   overflow-x: hidden;
 }
 
 .statistic {
-  display: inline;
+  display: block;
   z-index: 9999;
 }
 
 .icons {
+  padding: 20px 20px;
+  text-align: center;
+  width: 48%;
   background: #483025;
+}
+
+.m576{
+  width: 100%;
+  padding: 0;
+  overflow-x: hidden;
 }
 .slider-container .slider-left {
   position: absolute;
@@ -1952,7 +1996,7 @@ footer{
 
 .photo{
   overflow-x: hidden;
-  width: 100%;
+  width: 100% !important;
 }
 
 .photo img {
@@ -1966,6 +2010,7 @@ footer{
 .posts {
   display: block;
   height: 100%;
+  width: 100%;
 }
 
 .post {
@@ -1982,7 +2027,7 @@ footer{
     left: 145px;
 }
 
-.post img{
+.post img{ 
   width: 100%;
 }
 .imgpost2  {
@@ -1995,10 +2040,11 @@ footer{
 }
 
 
-.imgpost3{
-  display: inline;
-  margin:10px auto;
-  width: 100%;
+.imgpost3 {
+    display: inline;
+    padding: 0;
+    margin: 0 0 0 -64px;
+    width: 100%;
 }
 
 .imgpost3 img {
@@ -2045,6 +2091,8 @@ footer{
 }
 
 }
+
+
 
 
 
