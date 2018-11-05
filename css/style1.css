@@ -148,7 +148,7 @@
 }
 
 
-@media screen and (max-width:325px){
+@media screen and (max-width:320px){
  #contwidth{
   height: auto;
   margin-top: -50px;
