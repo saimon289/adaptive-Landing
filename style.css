@@ -1616,14 +1616,15 @@ body{
 .slider-container>h3 {
   font-size: 1em;
   text-align: center;
+  overflow-x: hidden;
 }
-.slider-container>p{
-  width: 300px;
-  margin: 0 auto;
-  box-sizing: border-box;
+.slider-container p{
   font-size: 1em;
   text-align: center;
+  width: 300px !important;
 }
+
+
 
 .slider-container .slider-content {
     position: relative;
